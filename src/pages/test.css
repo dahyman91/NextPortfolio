@@ -9,6 +9,10 @@
   z-index: 1;
 }
 
+/* * {
+  border: 1px solid red;
+} */
+
 @keyframes forest-move-in {
   from {
     background-position-y: 150%;
@@ -56,21 +60,20 @@
 #welcome-section .container {
   width: fit-content;
   position: absolute;
-  right: 0;
   top: 50%;
   right: 50%;
   opacity: 0;
-  transform: translate(-50%, -50%);
+  transform: translate(50%, -50%);
   animation: text-fade-in 1000ms 800ms forwards;
 }
 
 @keyframes text-fade-in {
   from {
-    right: 0;
+    right: 75%;
   }
   to {
     opacity: 1;
-    right: 25%;
+    right: 50%;
   }
 }
 
@@ -108,23 +111,23 @@
 
 #welcome-section .container .buttons a:hover,
 #welcome-section .container .buttons a:active {
-  border: 1px solid #f300b4;
+  border: 1px solid #4d7d99;
   transform: translateY(-2px);
-  box-shadow: 0 10px 100px -20px #f300b4;
+  box-shadow: 0 10px 100px -20px #4d7d99;
 }
 
 #welcome-section .container .buttons a.cta,
 #welcome-section .container .buttons a.cta:visited {
-  background: #f300b4;
+  background: #4d7d99;
   border: 1px solid transparent;
-  color: #fafafa;
+  color: black;
   font-weight: bold;
 }
 
 #welcome-section .container .buttons a.cta:hover,
 #welcome-section .container .buttons a.cta:active {
   background: transparent;
-  border: 1px solid #f300b4;
+  border: 1px solid #4d7d99;
 }
 
 #welcome-section .container .buttons a:first-child {
@@ -136,7 +139,7 @@
 }
 
 .color {
-  color: #f300b4;
+  color: #4d7d99;
   font-style: italic;
 }
 

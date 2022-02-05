@@ -94,25 +94,20 @@ export default function Projects() {
         </Container>
         <Box sx={styles.carouselWrapper}>
           <Carousel
-            additionalTransfrom={0}
-            arrows={false}
-            autoPlaySpeed={3000}
-            centerMode={true}
-            className=""
-            containerClass="carousel-container"
-            customButtonGroup={<ButtonGroup />}
-            dotListClass=""
-            draggable
-            focusOnSelect={false}
-            infinite={true}
-            itemClass=""
-            keyBoardControl
-            minimumTouchDrag={80}
-            renderDotsOutside={false}
+            swipeable={true}
+            draggable={false}
+            showDots={true}
             responsive={responsive}
-            showDots={false}
-            sliderClass=""
-            slidesToSlide={1}
+            customButtonGroup={<ButtonGroup />}
+            ssr={true} // means to render carousel on server-side.
+            infinite={true}
+            autoPlaySpeed={1000}
+            keyBoardControl={true}
+            transitionDuration={500}
+            containerClass="carousel-container"
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+            dotListClass="custom-dot-list-style"
+            itemClass="carousel-item-padding-40-px"
           >
             {data.map((item) => (
               <a
@@ -153,7 +148,7 @@ const styles = {
     mt: "-80px",
     px: "15px",
     ".carousel-container": {
-      width: "100vw",
+      width: "80vw",
       maxWidth: [
         "100%",
         null,

@@ -3,13 +3,11 @@ import { render } from "react-dom";
 import { Parallax, Background } from "react-parallax";
 
 const insideStyles = {
-  backgroundColor: "rgb(242,0,179,0.7)",
-  boxShadow:
-    "inset 2px 2px 5px #b8b9be, inset -3px -3px 7px rgb(242,0,179,0.5)",
-
+  backgroundColor: "rgb(77, 125, 153, 0.7)",
+  boxShadow: "inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #4D7D99",
+  fontSize: "1.2rem",
   color: "white",
   fontWeight: 500,
-  borderRadius: "5%",
 
   // opacity: "0.2",
   padding: 20,

@@ -11,7 +11,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <h1 style={{ padding: "0", margin: "0px" }}>Daniel Hyman</h1>
+          <h1 sx={styles.title}>Dan Hyman</h1>
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
               <Link
@@ -66,6 +66,11 @@ const positionAnim = keyframes`
 `;
 
 const styles = {
+  title: {
+    padding: "0",
+    margin: "0px",
+    color: "#4D7D99",
+  },
   header: {
     color: "text",
     fontWeight: "body",
