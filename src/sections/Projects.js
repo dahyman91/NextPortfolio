@@ -96,8 +96,10 @@ export default function Projects() {
           <Carousel
             swipeable={true}
             draggable={false}
-            showDots={true}
+            showDots={false}
             responsive={responsive}
+            arrows={false}
+            renderButtonGroupOutside={true}
             customButtonGroup={<ButtonGroup />}
             ssr={true} // means to render carousel on server-side.
             infinite={true}

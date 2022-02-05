@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Flex } from 'theme-ui';
-import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
+import { jsx, Box, Container, Flex } from "theme-ui";
+import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
 export default function ButtonGroup({ next, previous }) {
   return (
-    <Flex sx={{ width: '100%' }}>
+    <Flex sx={{ width: "100%" }}>
       <Container>
         <Box sx={styles.buttonGroup} className="button__group">
           <button onClick={previous} aria-label="Previous">
@@ -20,21 +20,21 @@ export default function ButtonGroup({ next, previous }) {
 }
 const styles = {
   buttonGroup: {
-    display: 'flex',
-    justifyContent: 'center',
+    display: "flex",
+    justifyContent: "center",
     mb: -4,
     button: {
-      bg: 'transparent',
-      border: '0px solid',
-      fontSize: 40,
-      cursor: 'pointer',
-      px: '2px',
-      color: '#BBC7D7',
-      transition: 'all 0.25s',
-      '&:hover': {
-        color: 'text',
+      bg: "transparent",
+      border: "0px solid",
+      fontSize: 60,
+      cursor: "pointer",
+      px: "2px",
+      color: "primary",
+      transition: "all 0.25s",
+      "&:hover": {
+        color: "black",
       },
-      '&:focus': {
+      "&:focus": {
         outline: 0,
       },
     },
