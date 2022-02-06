@@ -9,39 +9,6 @@
   z-index: 1;
 }
 
-/* .silhouette {
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-  left: 0;
-  background: url("../assets/heroImg.svg") bottom left no-repeat;
-  width: 50%;
-  height: 50%;
-  opacity: 0;
-  animation: silhouette-move-in 1000ms 800ms forwards;
-} */
-
-/* @keyframes silhouette-move-in {
-  from {
-    background-position-x: 0;
-  }
-  to {
-    opacity: 1;
-    background-position-x: 50%;
-  }
-} */
-
-/* @keyframes moon-move-in {
-  from {
-    opacity: 0;
-    background-position: right 150%;
-  }
-  to {
-    opacity: 1;
-    background-position: top right;
-  }
-} */
-
 /* Copy and CTA */
 #welcome-section .container {
   width: fit-content;
@@ -51,9 +18,6 @@
   opacity: 0;
   transform: translate(50%, -50%);
   animation: text-fade-in 1000ms 800ms forwards;
-  /* @media screen and (max-width: 650px) {
-    transform: translate(1000%, -50%);
-  } */
 }
 
 @keyframes text-fade-in {
@@ -94,8 +58,6 @@
 
 #welcome-section .container .buttons a:hover,
 #welcome-section .container .buttons a:active {
-  /* border: 1px solid #4d7d99; */
-  /* transform: translateY(-2px); */
   box-shadow: 0 10px 100px -20px #4d7d99;
 }
 

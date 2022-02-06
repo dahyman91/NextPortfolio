@@ -16,15 +16,7 @@ export default function Home() {
             </span>
           </h1>
           <div className="buttons">
-            <Link
-              activeClass="active"
-              to={"footer"}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              key={"footer"}
-            >
+            <a href="/files/Dan_Hyman.pdf" download>
               <Button
                 className="donate__btn"
                 // variant="textBtn"
@@ -32,10 +24,10 @@ export default function Home() {
               >
                 Download Resume
               </Button>
-            </Link>
+            </a>
             <Link
               activeClass="active"
-              to={"footer"}
+              to={"links"}
               spy={true}
               smooth={true}
               offset={-70}
