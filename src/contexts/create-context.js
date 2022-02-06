@@ -1,4 +1,4 @@
-import React, { useContext, createContext } from 'react';
+import React, { useContext, createContext } from "react";
 
 export function useCreateContext(defaultValue, reducer) {
   const defaultDispatch = () => defaultValue;
@@ -7,7 +7,7 @@ export function useCreateContext(defaultValue, reducer) {
 
   function useStateCtx(property) {
     const state = useContext(stateCtx);
-    return state[property]; // only one depth selector for comparison
+    return state[property];
   }
 
   function useDispatchCtx() {

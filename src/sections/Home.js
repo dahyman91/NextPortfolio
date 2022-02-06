@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Link } from "react-scroll";
+import { Button } from "theme-ui";
 
 export default function Home() {
   return (
@@ -18,10 +19,40 @@ export default function Home() {
             </span>
           </h1>
           <div className="buttons">
-            <a href="#projects">Resume</a>
-            <a href="/contact" className="cta">
-              get in touch
-            </a>
+            <Link
+              activeClass="active"
+              to={"footer"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              key={"footer"}
+            >
+              <Button
+                className="donate__btn"
+                // variant="textBtn"
+                aria-label="Contact Me"
+              >
+                Download Resume
+              </Button>
+            </Link>
+            <Link
+              activeClass="active"
+              to={"footer"}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              key={"footer"}
+            >
+              <Button
+                className="donate__btn"
+                variant="secondary"
+                aria-label="Contact Me"
+              >
+                Get In Touch
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
