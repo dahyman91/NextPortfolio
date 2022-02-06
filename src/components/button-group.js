@@ -28,9 +28,12 @@ const styles = {
       border: "0px solid",
       fontSize: 60,
       cursor: "pointer",
-      px: "2px",
+      px: "50px",
       color: "primary",
       transition: "all 0.25s",
+      "@media screen and (min-width: 1620px)": {
+        px: "90px",
+      },
       "&:hover": {
         color: "black",
       },

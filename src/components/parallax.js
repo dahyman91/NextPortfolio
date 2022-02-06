@@ -15,15 +15,19 @@ const insideStyles = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%,-50%)",
-  width: "90%",
+  width: "70%",
 };
 
-const image4 =
-  "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
+const bgImage =
+  "https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
 
 const ParallaxSection = () => (
-  <Parallax bgImage={image4} strength={500}>
-    <div style={{ height: "100vh", width: "100%" }}>
+  <Parallax
+    style={{ width: "100%", margin: "auto" }}
+    bgImage={bgImage}
+    strength={500}
+  >
+    <div style={{ height: "93vh", width: "100%" }}>
       <div style={insideStyles}>
         I’ve been curious about the world of software development since college,
         but my time-intensive jobs as a Chef and Catering Director made a career

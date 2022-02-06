@@ -11,7 +11,16 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <h1 sx={styles.title}>Dan Hyman</h1>
+          <Link
+            activeClass="active"
+            to={"home"}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <h1 sx={styles.title}>Dan Hyman</h1>
+          </Link>
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
               <Link
@@ -41,7 +50,7 @@ export default function Header({ className }) {
               variant="secondary"
               aria-label="Contact Me"
             >
-              Hire Me
+              Contact Me
             </Button>
           </Link>
 
@@ -70,6 +79,7 @@ const styles = {
     padding: "0",
     margin: "0px",
     color: "#4D7D99",
+    cursor: "pointer",
   },
   header: {
     color: "text",
@@ -121,6 +131,7 @@ const styles = {
       },
       "&.active": {
         color: "primary",
+        // fontWeight: "1000",
       },
     },
   },

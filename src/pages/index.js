@@ -6,7 +6,7 @@ import SEO from "components/seo";
 import Layout from "components/layout";
 import Home from "../sections/home";
 import About from "../sections/About";
-import Blog from "../sections/Blog";
+import Blog from "../sections/Links";
 import Projects from "../sections/Projects";
 
 export default function IndexPage() {

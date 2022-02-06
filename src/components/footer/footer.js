@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, Box, Grid, Container, Image, Heading, Text } from "theme-ui";
-import { Link } from "components/link";
 import data from "./footer.data";
 
 export default function Footer() {
@@ -23,20 +22,9 @@ export default function Footer() {
         </Grid>
         {/* End of footer widgets area */}
         <Box sx={styles.footer.footerBottomArea}>
-          <Box sx={styles.footer.menus}>
-            <nav>
-              {data.menuItem.map(({ path, label }, i) => (
-                <Link
-                  path={path}
-                  key={i}
-                  label={label}
-                  sx={styles.footer.link}
-                />
-              ))}
-            </nav>
-          </Box>
+          <Box sx={styles.footer.menus}></Box>
           <Text sx={styles.footer.copyright}>
-            Dan Hyman {new Date().getFullYear()}
+            Dan Hyman © {new Date().getFullYear()}
           </Text>
         </Box>
       </Container>
@@ -96,7 +84,7 @@ const styles = {
       "repeat(1,1fr)",
       null,
       "repeat(2,1fr)",
-      "repeat(3,1fr)",
+      "repeat(2,1fr)",
     ],
     widgetItem: {
       textAlign: "center",

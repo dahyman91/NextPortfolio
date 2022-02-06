@@ -6039,7 +6039,7 @@
   "resolved" "https://registry.npmjs.org/react-ga/-/react-ga-3.3.0.tgz"
   "version" "3.3.0"
 
-"react-icons@^3.10.0":
+"react-icons@^3.11.0":
   "integrity" "sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-3.11.0.tgz"
   "version" "3.11.0"

@@ -18,34 +18,5 @@ export default {
       title: "Call Me",
       description: "917.828.5927",
     },
-    {
-      id: 3,
-      iconSrc: Github,
-      altText: "Github",
-      title: "Connect With Me",
-      description: "https://www.linkedin.com/in/dan-hyman-dev/",
-    },
-  ],
-  menuItem: [
-    {
-      path: "/",
-      label: "Home",
-    },
-    {
-      path: "/",
-      label: "Adversite",
-    },
-    {
-      path: "/",
-      label: "Supports",
-    },
-    {
-      path: "/",
-      label: "Marketing",
-    },
-    {
-      path: "/",
-      label: "Contact",
-    },
   ],
 };
