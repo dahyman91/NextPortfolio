@@ -4,7 +4,7 @@ import ParallaxSection from "components/parallax";
 
 export default function About() {
   return (
-    <section id="about" sx={styles.about} className="page sc">
+    <section id="about" sx={styles.about}>
       <ParallaxSection />
     </section>
   );
@@ -13,7 +13,7 @@ export default function About() {
 const styles = {
   about: {
     back: "fff",
-    height: "100vh",
+    height: "103vh",
     zIndex: "10",
   },
 };

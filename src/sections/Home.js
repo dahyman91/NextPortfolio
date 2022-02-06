@@ -5,11 +5,8 @@ import { Button } from "theme-ui";
 
 export default function Home() {
   return (
-    <section sx={styles.banner} className="" id="home">
+    <section sx={styles.banner} className="page sc" id="home">
       <header id="welcome-section">
-        <div className="forest" />
-        <div className="silhouette" />
-        <div className="moon" />
         <div className="container">
           <h1>
             <span className="line">I love</span>

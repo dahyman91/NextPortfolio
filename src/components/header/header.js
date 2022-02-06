@@ -30,6 +30,7 @@ export default function Header({ className }) {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                // spyThrottle={500}
                 key={i}
               >
                 {label}
@@ -38,10 +39,10 @@ export default function Header({ className }) {
           </Flex>
           <Link
             activeClass="active"
-            to={"footer"}
+            to={"links"}
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-60}
             duration={500}
             key={"footer"}
           >
@@ -123,6 +124,8 @@ const styles = {
       fontSize: 2,
       fontWeight: "body",
       px: 7,
+      color: "black",
+
       cursor: "pointer",
       lineHeight: "1.2",
       transition: "all 0.15s",
