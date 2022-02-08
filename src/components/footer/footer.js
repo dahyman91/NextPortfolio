@@ -22,7 +22,6 @@ export default function Footer() {
         </Grid>
         {/* End of footer widgets area */}
         <Box sx={styles.footer.footerBottomArea}>
-          <Box sx={styles.footer.menus}></Box>
           <Text sx={styles.footer.copyright}>
             Dan Hyman © {new Date().getFullYear()}
           </Text>
@@ -86,8 +85,14 @@ const styles = {
       "repeat(2,1fr)",
       "repeat(2,1fr)",
     ],
+    "@media screen and (max-width: 670px)": {
+      mt: "30vh",
+    },
     widgetItem: {
       textAlign: "center",
+      "@media screen and (max-width: 670px)": {
+        padding: "3vh",
+      },
     },
     infoWrapper: {
       mt: [2, 3, null, 2, 4],

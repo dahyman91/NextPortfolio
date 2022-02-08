@@ -238,7 +238,8 @@ const styles = {
     display: "flex",
   },
   image: {
-    height: "30%",
+    height: "30vh",
+    width: "auto",
   },
   headingContainer: {
     paddingTop: "50px",

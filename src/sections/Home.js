@@ -9,11 +9,12 @@ export default function Home() {
       <header id="welcome-section">
         <div className="container">
           <h1>
-            <span className="line">I love</span>
-            <span className="line">web design</span>
+            <span className="line">Software</span>
             <span className="line">
-              <span className="color">&</span> code.
+              Engineer <span className="color">&</span>
             </span>
+
+            <span className="line">Great Home Cook.</span>
           </h1>
           <div className="buttons">
             <a href="/files/Dan_Hyman.pdf" download>
