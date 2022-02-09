@@ -14,15 +14,15 @@ export default function Home() {
               Engineer <span className="color">&</span>
             </span>
 
-            <span className="line">Great Home Cook.</span>
+            <span className="line">Overqualified Home Cook.</span>
           </h1>
           <div className="buttons">
-            <a href="/files/Dan_Hyman.pdf" download>
-              <Button
-                className="donate__btn"
-                // variant="textBtn"
-                aria-label="Contact Me"
-              >
+            <a
+              href="/files/Dan_Hyman.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="donate__btn" aria-label="Contact Me">
                 Download Resume
               </Button>
             </a>
