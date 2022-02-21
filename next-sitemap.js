@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency-modern.vercel.app',
+  siteUrl: "https://dan-hyman.com",
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {

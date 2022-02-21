@@ -39,15 +39,16 @@
 }
 
 #welcome-section .container h1 .line:first-child {
-  margin-left: 1rem;
+  text-align: center;
 }
 
 #welcome-section .container h1 .line:last-child {
-  margin-left: 2rem;
+  text-align: center;
 }
 
 #welcome-section .container .buttons {
   display: flex;
+  justify-content: center;
   margin-top: 1rem;
 }
 

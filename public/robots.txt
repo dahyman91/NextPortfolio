@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://startup-agency-modern.vercel.app
+Host: https://dan-hyman.com
 
 # Sitemaps
-Sitemap: https://startup-agency-modern.vercel.app/sitemap.xml
+Sitemap: https://dan-hyman.com/sitemap.xml

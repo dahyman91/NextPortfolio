@@ -11,10 +11,8 @@ export default function Home() {
           <h1>
             <span className="line">Software</span>
             <span className="line">
-              Engineer <span className="color">&</span>
+              <span className="color">Engineer</span>
             </span>
-
-            <span className="line">Overqualified Home Cook.</span>
           </h1>
           <div className="buttons">
             <a
@@ -23,10 +21,21 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Button className="donate__btn" aria-label="Contact Me">
-                Download Resume
+                Resume
+              </Button>
+            </a>
+            <a
+              style={{ marginRight: "1rem" }}
+              href="https://github.com/dahyman91"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="donate__btn" aria-label="Contact Me">
+                Github
               </Button>
             </a>
             <Link
+              className="donate__btn"
               activeClass="active"
               to={"links"}
               spy={true}

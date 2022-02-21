@@ -45,7 +45,11 @@ export default function SEO({
     <Head>
       <title>{title}</title>
       {metaData.map(({ name, content }, i) => (
-        <meta key={i} name={name} content={content} />
+        <meta
+          key={i}
+          name={name}
+          content="Dan Hyman is a New York City based Software Engineer and graduate of the Flatiron School."
+        />
       ))}
     </Head>
   );
