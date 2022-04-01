@@ -11,9 +11,9 @@ import {
 
 export default function Links() {
   return (
-    <section sx={{ height: "60vh" }} id="links">
+    <section sx={{ height: "65vh" }} id="links">
       <Container sx={styles.headingContainer}>
-        <SectionHeader slogan="Where to find me" title="Reach Out" />
+        <SectionHeader slogan="Where to find me" />
       </Container>
       <Container sx={styles.linksContainer}>
         <a href="https://www.linkedin.com/in/dan-hyman-dev/" target="blank">

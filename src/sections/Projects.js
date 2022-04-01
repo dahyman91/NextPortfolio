@@ -90,7 +90,7 @@ export default function Projects() {
       sx={{ height: "100vh", position: "relative" }}
     >
       <Container sx={styles.headingContainer}>
-        <SectionHeader slogan="What I've Been Working On" title="My Projects" />
+        <SectionHeader slogan="Recent Works" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel
@@ -213,6 +213,7 @@ const styles = {
     fontWeight: 700,
     mb: [3, null, null, "22px"],
     color: "text",
+    textAlign: "center",
     lineHeight: 1.6,
   },
   description: {
@@ -238,8 +239,11 @@ const styles = {
     display: "flex",
   },
   image: {
-    height: "30vh",
+    // marginLeft: "5",
+    height: "25vh",
     width: "auto",
+    // margin: "auto",
+    // alignSelf: "center",
   },
   headingContainer: {
     paddingTop: "50px",

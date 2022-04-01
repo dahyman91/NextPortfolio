@@ -47,7 +47,7 @@ export default function Header({ className }) {
             key={"footer"}
           >
             <Button
-              className="donate__btn"
+              className="contact__btn"
               variant="secondary"
               aria-label="Contact Me"
             >
@@ -93,7 +93,7 @@ const styles = {
     backgroundColor: "transparent",
     transition: "all 0.4s ease",
     animation: `${positionAnim} 0.4s ease`,
-    ".donate__btn": {
+    ".contact__btn": {
       flexShrink: 0,
       mr: [15, 20, null, null, 0],
       ml: ["auto", null, null, null, 0],
@@ -101,12 +101,8 @@ const styles = {
     "&.sticky": {
       position: "fixed",
       backgroundColor: "background",
-      color: "#000000",
       boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
       py: 3,
-      "nev > a": {
-        color: "text",
-      },
     },
   },
   container: {
@@ -124,7 +120,6 @@ const styles = {
       fontSize: 2,
       fontWeight: "body",
       px: 7,
-      color: "black",
 
       cursor: "pointer",
       lineHeight: "1.2",
@@ -134,7 +129,6 @@ const styles = {
       },
       "&.active": {
         color: "primary",
-        // fontWeight: "1000",
       },
     },
   },

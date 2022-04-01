@@ -20,7 +20,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="donate__btn" aria-label="Contact Me">
+              <Button className="contact__btn" aria-label="Contact Me">
                 Resume
               </Button>
             </a>
@@ -30,12 +30,12 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="donate__btn" aria-label="Contact Me">
+              <Button className="contact__btn" aria-label="Contact Me">
                 Github
               </Button>
             </a>
             <Link
-              className="donate__btn"
+              className="contact__btn"
               activeClass="active"
               to={"links"}
               spy={true}
@@ -45,7 +45,7 @@ export default function Home() {
               key={"footer"}
             >
               <Button
-                className="donate__btn"
+                className="contact__btn"
                 variant="secondary"
                 aria-label="Contact Me"
               >

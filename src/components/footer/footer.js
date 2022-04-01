@@ -5,8 +5,8 @@ import data from "./footer.data";
 export default function Footer() {
   return (
     <footer id="footer" sx={styles.footer}>
-      <Container>
-        <Grid sx={styles.widgets}>
+      {/* <Container> */}
+      {/* <Grid sx={styles.widgets}>
           {data.widgets.map((item) => (
             <Box
               key={`footer-widget--key${item.id}`}
@@ -19,14 +19,14 @@ export default function Footer() {
               </Box>
             </Box>
           ))}
-        </Grid>
-        {/* End of footer widgets area */}
-        <Box sx={styles.footer.footerBottomArea}>
-          <Text sx={styles.footer.copyright}>
-            Dan Hyman © {new Date().getFullYear()}
-          </Text>
-        </Box>
-      </Container>
+        </Grid> */}
+      {/* End of footer widgets area */}
+      <Box sx={styles.footer.footerBottomArea}>
+        <Text sx={styles.footer.copyright}>
+          Dan Hyman © {new Date().getFullYear()}
+        </Text>
+      </Box>
+      {/* </Container> */}
     </footer>
   );
 }
@@ -78,7 +78,7 @@ const styles = {
     px: [4, 0, 3, null, 7, 10],
     width: ["100%", "80%", "100%"],
     mx: "auto",
-    gridGap: ["40px 0", null, "45px 30px", null, "60px 30px", "50px 90px"],
+    gridGap: ["20px 0", null, "45px 30px", null, "60px 30px", "50px 90px"],
     gridTemplateColumns: [
       "repeat(1,1fr)",
       null,

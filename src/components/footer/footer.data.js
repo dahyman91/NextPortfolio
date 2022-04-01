@@ -9,7 +9,7 @@ export default {
       iconSrc: Chat,
       altText: "Community",
       title: "Email Me",
-      description: "dahyman91@gmail.com",
+      description: "danhymanSE@gmail.com",
     },
     {
       id: 2,
