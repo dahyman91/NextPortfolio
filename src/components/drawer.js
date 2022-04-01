@@ -49,7 +49,7 @@ const Drawer = ({
 
 Drawer.defaultProps = {
   width: "320px",
-  placement: "left",
+  placement: "right",
 };
 
 export default Drawer;

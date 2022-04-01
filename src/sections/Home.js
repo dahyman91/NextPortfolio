@@ -9,9 +9,9 @@ export default function Home() {
       <header id="welcome-section">
         <div className="container">
           <h1>
-            <span className="line">Software</span>
+            <span className="line">Full Stack</span>
             <span className="line">
-              <span className="color">Engineer</span>
+              <span className="color">Software Engineer</span>
             </span>
           </h1>
           <div className="buttons">
