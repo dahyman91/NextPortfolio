@@ -57,8 +57,8 @@ const data = [
     id: 5,
     title: "Falconi Media Digital Agency Site",
     description:
-      "My solo first project. A fully responsive marketing site built for a digital agency integrating the Vimeo api. Deployed to Github pages.",
-    technologies: "Bootstrap | Vimeo",
+      "A fully responsive marketing site built for a digital agency integrating the Vimeo api. ",
+    technologies: "Gatsby | Vimeo",
     image: Falconi,
     link: "https://falconimedia.com",
     target: "blank",

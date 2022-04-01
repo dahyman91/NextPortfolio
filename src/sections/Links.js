@@ -47,7 +47,7 @@ const styles = {
     fontSize: "100px",
     "@media screen and (max-width: 670px)": {
       flexDirection: "column",
-      marginTop: "35vh",
+      marginTop: "40vh",
     },
   },
   // link: {
